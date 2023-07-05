@@ -3,8 +3,8 @@
 ## Description:
 This was my final project for Harvard University' s CS50x 2023 course and my first attempt to create an efficient data structure from scratch: a ***command line program in C*** that autocompletes the user' s input.
 ## Included files:
-- ***autocomplete.c :*** Source code file. More on that later.
-- ***dict.txt :*** Text dictionary of English words ([source](https://github.com/dwyl/english-words/blob/master/words_alpha.txt)).
+- ***autocomp.c :*** Source code file. More on that later.
+- ***dict.txt :*** Text dictionary of English words - required([source](https://github.com/dwyl/english-words/blob/master/words_alpha.txt)).
 - ***README.md :*** What you' re reading right now.
 ## Overview:
 Running with '-s' command line argument loads the dictionary into memory using a **trie** data structure. This mode is optimized for speed with an O(l) word retrieval time, where 'l' is the size of the word. The downside is that this method can only complete user input **starting** with the given word syllable(s).
