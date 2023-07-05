@@ -11,4 +11,4 @@ Running with '-s' command line argument loads the dictionary into memory using a
 
 Running with '-i' command line argument uses simple iteration with fscanf to check every word of the dictionary for a matching fragment. This has the advantage of returning words that also **include** the given word syllable(s) anywhere in their respective string length. The disadvantage is that it is about 8000 times slower than the trie.
 ### Epilogue
-I hope you found my project interesting and eventually useful. Thanks for reading!
+I hope you find my project interesting and eventually useful. Thanks for reading!
