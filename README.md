@@ -3,7 +3,7 @@
 ## Description:
 This was my final project for Harvard University' s CS50x 2023 course and my first attempt to create an efficient data structure from scratch: a ***command line program in C*** that autocompletes the user' s input.
 ## Included files:
-- ***autocomp.c :*** Source code file. More on that later.
+- ***autocomp.c :*** Source code file.
 - ***dict.txt :*** Text dictionary of English words - required([source](https://github.com/dwyl/english-words/blob/master/words_alpha.txt)).
 - ***README.md :*** What you' re reading right now.
 ## Overview:
