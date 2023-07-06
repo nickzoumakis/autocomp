@@ -13,6 +13,6 @@ Running with '-i' command line argument uses simple iteration with fscanf to che
 
 ## Technical stuff:
 - I made use of linked lists to create the nodes of the trie, with 2 header pointers during initialization to ensure a queue type functionality of the structure.
-- The original source code accepts ASCII characters and the apostrophe symbol **only**. Attempting to read a dictionary file with non-alphabetical entries will result in a segmentation fault and crash. It should be relatively simple to modify the code for that purpose though.
+- The original source code for the '-s' command line argument accepts ASCII characters and the apostrophe symbol **only**. Attempting to read a dictionary file with non-alphabetical entries will result in a segmentation fault and crash. It should be relatively simple to modify the code for that purpose though. Using the program with the '-i' command line argument can bypass this limitation, since it works with fscanf, although you lose the efficiency and speed of the trie data structure.
 ### Epilogue
 I hope you find my project interesting and eventually useful. Thanks for reading!
